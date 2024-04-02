@@ -1,0 +1,73 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+    font-family: "Figtree";
+    font-size: 16px;
+}
+
+.wrapper {
+    background-color:  hsl(47, 88%, 63%);
+    height: 100%;
+    place-items: center;
+    display: grid;
+    
+}
+
+.frame {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    flex-direction: column;
+    border-radius: 14px;
+    padding-block: 30px;
+    padding-inline: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 0px 3px hsl(0, 0%, 7%);
+}
+
+.learn {
+    background-color: hsl(47, 88%, 63%);;
+    width: 30%;
+    text-align: center;
+    padding-block: 5px;
+    font-size: bold;
+    font-weight: 800;
+}
+
+.picture {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.date {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.code {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.explanation {
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+}
+
+.ava {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.avadiff {
+    display: flex;
+    padding-inline: 5px;
+    padding-bottom: 20px;
+    align-items: center;
+    font-weight: 800;
+    gap: 20px;
+}
